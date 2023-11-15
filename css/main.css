@@ -272,7 +272,6 @@ a:hover {
   overflow: hidden;
   position: relative;
   display: inline-block;
-  color: #fff;
 }
 .card::before {
   content: "";
@@ -297,9 +296,6 @@ a:hover {
   border: 3px double rgba(255, 255, 255, 0.4);
   -webkit-transition: opacity 0.2s ease-in;
   transition: opacity 0.2s ease-in;
-}
-.card:hover {
-  color: #fff;
 }
 .card:hover::after {
   opacity: 1;
@@ -326,4 +322,13 @@ a:hover {
   right: 20px;
   bottom: 44px;
   font-size: 24px;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+}
+
+.card:hover .card__title {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }/*# sourceMappingURL=main.css.map */
