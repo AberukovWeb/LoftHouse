@@ -453,4 +453,31 @@ a:hover {
           transform: translate(-50%, -50%) scale(1.2);
   -webkit-filter: saturate(1.5);
           filter: saturate(1.5);
+}
+
+.section-map {
+  padding: 180px 0;
+}
+
+.section-map__title {
+  margin-bottom: 88px;
+}
+
+.map {
+  height: 358px;
+  background: #626262;
+}
+
+.feedback {
+  padding-bottom: 180px;
+}
+
+.feedback__title {
+  margin-bottom: 38px;
+}
+
+.feedback__form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }/*# sourceMappingURL=main.css.map */
